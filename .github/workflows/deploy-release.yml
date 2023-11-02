@@ -40,4 +40,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://nsarrazin:$HF_TOKEN@huggingface.co/spaces/huggingchat/chat-ui main
+        run: git push https://brewdxyz:$HF_TOKEN@huggingface.co/spaces/BREWDAcademy/brewdchat main
